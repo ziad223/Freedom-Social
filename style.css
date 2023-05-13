@@ -1,0 +1,164 @@
+:root{
+    --main-color: rgb(196,47,217);
+    --gold-color: rgb(206,185,12);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar h2{
+ font-size: 35px;
+ font-weight: bold;color:
+  var(--main-color);
+
+}
+.navbar h2 span{
+    color: var(--gold-color);
+}
+
+.navbar img{
+    width: 80px;
+}
+.about{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about img{
+    width: 100px;
+    padding: 10px;
+}
+.about .info{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.about .info h2{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.about .info h2 span{
+    color: var(--main-gold);
+    font-weight: bold;
+}
+.about .info h3{
+    font-size: 25px;
+    color: var(--gold-color);
+}
+.about .info > *{
+    margin-top: 10px;
+}
+.single-social{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background-color: var(--main-color);
+ margin-top: 10px;
+ padding: 10px;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: all 0.7s ease;
+}
+
+.single-social:hover{
+    background-color:  rgb(108, 10, 121);
+    transform: scale(1.1);
+   }
+.single-social p{
+    width: 100px;
+    color: #fff;
+
+}
+.single-social i{
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.single-social i:hover{
+    background-color: #444;
+}
+
+@media screen and (max-width : 480px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .navbar h2{
+     font-size: 20px;
+     font-weight: bold;color:
+      var(--main-color);
+    
+    }
+    .navbar h2 span{
+        color: var(--gold-color);
+    }
+    
+    .navbar img{
+        width: 80px;
+    }
+    .about{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about img{
+        display: none;
+    }
+    .about .info{
+        margin-top: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .about .info h2{
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 18px;
+        color: #000;
+
+    }
+
+    .about .info h3{
+        font-size: 20px;
+        color: #000;
+    }
+    .about .info > *{
+        margin-top: 20px;
+    }
+    .about .info p{
+        font-size: 18px;
+        max-width: 90%;
+        text-align: center;
+    }
+    .single-social{
+     max-width: 90%;
+     margin: 15px auto;
+    }
+    
+
+
+
+    
+}
