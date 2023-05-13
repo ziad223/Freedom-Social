@@ -80,7 +80,6 @@ a{
 
 .single-social:hover{
     background-color:  rgb(108, 10, 121);
-    transform: scale(1.1);
    }
 .single-social p{
     width: 100px;
