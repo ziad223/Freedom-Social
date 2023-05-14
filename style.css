@@ -76,6 +76,8 @@ a{
  border-radius: 10px;
  cursor: pointer;
  transition: all 0.7s ease;
+  width: 800px;
+
 }
 
 .single-social:hover{
@@ -152,8 +154,9 @@ a{
         text-align: center;
     }
     .single-social{
-     max-width: 90%;
      margin: 15px auto;
+      max-width: 400px;
+
     }
     
 
